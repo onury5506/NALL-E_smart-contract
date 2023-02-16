@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "flat":"truffle-flattener contracts/NALLENFT.sol > NALLENFT.flatten.sol"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@truffle/hdwallet-provider": "^2.1.6",
+    "dotenv": "^16.0.3",
+    "truffle-flattener": "^1.6.0"
+  }
+}
